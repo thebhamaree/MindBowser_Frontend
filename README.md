@@ -1,70 +1,85 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 🚀 Tech Stack
 
-In the project directory, you can run:
+- **React.js** – Frontend library for UI
+- **React Router** – Client-side routing
+- **Axios** – HTTP requests to backend
+- **CKEditor 5** – Rich text blog content editor
+- **Bootstrap/CSS** – Responsive styling
+- **ChatGPT** – AI pair programming assistant
 
-### `npm start`
+---
+## 💡 My Development Approach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Frontend Bootstrapping**: Initialized using `create-react-app` and structured components/pages.
+2. **Routing**: Set up `React Router` for navigation (login, register, dashboard, blog view, etc).
+3. **Blog Editor**: Integrated `CKEditor 5` for rich text editing of blogs.
+4. **Authentication**: Stored JWT in localStorage to persist user sessions.
+5. **Axios Integration**: Created API calls for login, register, blog CRUD.
+6. **Image Uploads**: Enabled image support through multipart/form-data.
+7. **Blog View**: Implemented detail view, author info, created date, and sorting logic.
+8. **Polishing**: Styled using Bootstrap and custom CSS for responsive design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🤖 ChatGPT Assistance
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Throughout development, I used **ChatGPT** to:
 
-### `npm run build`
+- Design clean and responsive React components
+- Troubleshoot routing and state issues
+- Integrate and configure CKEditor 5
+- Handle image upload UI and logic
+- Resolve CORS and authentication token bugs
+- Improve user experience and form validation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## 🔧 Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/thebhamaree/MindBowser_Frontend.git
+   cd MindBowser_Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.**Install Dependencies**
+  npm install
 
-### `npm run eject`
+3.**npm start**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⚙️ **Key Features**
+--User login and registration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+--Blog creation, update, delete
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+--Display blog details with image, title, date, author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+--Dashboard view for logged-in user blogs
 
-## Learn More
+--Global blog feed sorted by latest
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+--Route protection and session handling
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🤝 Author
+Harshal Bhamare
+Full-Stack Developer
+https://github.com/thebhamaree
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
